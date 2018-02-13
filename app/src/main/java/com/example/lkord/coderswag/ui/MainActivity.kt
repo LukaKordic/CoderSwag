@@ -1,7 +1,8 @@
-package com.example.lkord.coderswag
+package com.example.lkord.coderswag.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.lkord.coderswag.R
 
 class MainActivity : AppCompatActivity() {
 
