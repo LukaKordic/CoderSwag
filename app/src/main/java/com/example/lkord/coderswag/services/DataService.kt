@@ -3,9 +3,6 @@ package com.example.lkord.coderswag.services
 import com.example.lkord.coderswag.models.Category
 import com.example.lkord.coderswag.models.Product
 
-/**
- * Created by lkord on 13.2.2018..
- */
 object DataService {
 
     val categories = listOf(
