@@ -1,3 +1,3 @@
 package com.example.lkord.coderswag.utils
 
-const val CATEGORY_TITLE_EXTRA = "category_title"
+const val CATEGORY_TITLE_KEY = "category_title"
