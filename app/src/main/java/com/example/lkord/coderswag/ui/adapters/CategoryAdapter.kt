@@ -9,11 +9,11 @@ import com.example.lkord.coderswag.R
 import com.example.lkord.coderswag.models.Category
 import com.example.lkord.coderswag.ui.holders.CategoryHolder
 
-class CategoryAdapter(private val context: Context, private val categories: List<Category>) : RecyclerView.Adapter<CategoryHolder>() {
+class CategoryAdapter(private val context: Context, private val categories: List<Category>, private val onItemClick: (Category) -> Unit) : RecyclerView.Adapter<CategoryHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): CategoryHolder {
         val itemView: View = LayoutInflater.from(parent?.context).inflate(R.layout.category_list_item, parent, false)
-        return CategoryHolder(itemView)
+        return CategoryHolder(itemView, onItemClick)
     }
 
 
